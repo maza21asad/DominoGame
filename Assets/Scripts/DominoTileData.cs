@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class DominoTileData : ScriptableObject
 {
-    public int leftVelue;
-    public int rightVelue;
+    public int leftValue;
+    public int rightValue;
     public Sprite dominoSprite;
 }

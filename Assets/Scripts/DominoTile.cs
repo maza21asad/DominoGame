@@ -4,15 +4,37 @@ using UnityEngine;
 
 public class DominoTile : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int leftValue;
+    public int rightValue;
+
+    private SpriteRenderer spriteRenderer;
+
+    private void Awake()
     {
-        
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Initialize(DominoTileData data)
     {
-        
+        leftValue = data.leftValue;
+        rightValue = data.rightValue;
+        spriteRenderer.sprite = data.dominoSprite;
+    }
+
+    public bool Matches(int value)
+    {
+        return leftValue == value || rightValue == value;
+    }
+
+    public void Flip()
+    {
+        // swap values if needed
+        int temp = leftValue;
+        leftValue = rightValue;
+        rightValue = temp;
+
+        // visually rotate 180
+        transform.Rotate(0, 180, 0);
     }
 }
+
