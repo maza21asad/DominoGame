@@ -1,18 +1,25 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
-public class Player : MonoBehaviour
+[System.Serializable]
+public class Player
 {
-    // Start is called before the first frame update
-    void Start()
+    public string playerName;
+    public List<DominoTile> hand = new List<DominoTile>();
+    public int score;
+
+    public Player(string name)
     {
-        
+        playerName = name;
+        score = 0;
     }
 
-    // Update is called once per frame
-    void Update()
+    public bool HasValidMove(int leftEnd, int rightEnd)
     {
-        
+        foreach (DominoTile tile in hand)
+        {
+            if (tile.Matches(leftEnd) || tile.Matches(rightEnd))
+                return true;
+        }
+        return false;
     }
 }
