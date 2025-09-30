@@ -381,6 +381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1779123031}
+  - component: {fileID: 1779123032}
   m_Layer: 0
   m_Name: DominoManager
   m_TagString: Untagged
@@ -403,6 +404,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1779123032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779123030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81ca3c21f1599947afc4c0e7814cfe3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allDominoData:
+  - {fileID: 11400000, guid: 3b712cc9d6a6d1347a9a78213ab32a3d, type: 2}
+  - {fileID: 11400000, guid: e24211f767cbe6e4f87a70ebf8e6a3e2, type: 2}
+  dominoPrefab: {fileID: 1590200983664278859, guid: f3fd2e80c18e28b4fb6933eb170de3c7, type: 3}
 --- !u!1001 &6654155340603389193
 PrefabInstance:
   m_ObjectHideFlags: 0
