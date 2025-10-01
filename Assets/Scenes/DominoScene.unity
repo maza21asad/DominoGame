@@ -434,6 +434,32 @@ MonoBehaviour:
   allDominoData:
   - {fileID: 11400000, guid: 3b712cc9d6a6d1347a9a78213ab32a3d, type: 2}
   - {fileID: 11400000, guid: e24211f767cbe6e4f87a70ebf8e6a3e2, type: 2}
+  - {fileID: 11400000, guid: dfce89821cc50ba46913f0ef66813342, type: 2}
+  - {fileID: 11400000, guid: da1e5a428c127be4aa9c6727a399ffbc, type: 2}
+  - {fileID: 11400000, guid: c7845e047437a1d45a5871d9c52236ca, type: 2}
+  - {fileID: 11400000, guid: 0cd83e183b09a71419a66fba3a5454be, type: 2}
+  - {fileID: 11400000, guid: 9c736978de297a54d8d2f61394c0e8c5, type: 2}
+  - {fileID: 11400000, guid: 34c6ebbdaef267f47af961c1b215351d, type: 2}
+  - {fileID: 11400000, guid: a14dc7a24d294fd4098660ea017dee9e, type: 2}
+  - {fileID: 11400000, guid: 57e890dd336ea6b4da11c7431f378fdb, type: 2}
+  - {fileID: 11400000, guid: d1c0342eda60b3f4eafed1c8fd116fc1, type: 2}
+  - {fileID: 11400000, guid: 152fa575a76f8cb4ca3e7052f3a28947, type: 2}
+  - {fileID: 11400000, guid: c03b95ae5c2093441a4a3b8f4f2e244a, type: 2}
+  - {fileID: 11400000, guid: 749d43d13799ec54c8c9215460961a97, type: 2}
+  - {fileID: 11400000, guid: 1bdab6a048119f44294dfb7c242043c2, type: 2}
+  - {fileID: 11400000, guid: 8f291d6e0998cdb48a7b379ab8855eca, type: 2}
+  - {fileID: 11400000, guid: a8d075e4b15779c49a124d33039c4bd5, type: 2}
+  - {fileID: 11400000, guid: 8fcfb30373c798746a2f3eb1d2e843af, type: 2}
+  - {fileID: 11400000, guid: 26dbe040f07a3cd4bab83b21d6c67d2f, type: 2}
+  - {fileID: 11400000, guid: 9ee1f7bd95d3c2b4eac85223e571d80a, type: 2}
+  - {fileID: 11400000, guid: c535c502d6209f24d9ed8b9083bfd5e4, type: 2}
+  - {fileID: 11400000, guid: eb90a7b186e67a54f8cc140948f9865c, type: 2}
+  - {fileID: 11400000, guid: e9653a9523a483140b398214a0c15529, type: 2}
+  - {fileID: 11400000, guid: eecbaef7931f2e344a8e37a0a581f799, type: 2}
+  - {fileID: 11400000, guid: f945a388ddca82947a5477663462d024, type: 2}
+  - {fileID: 11400000, guid: 83c377e3fd36f9c4e84f56852e581485, type: 2}
+  - {fileID: 11400000, guid: 42eb641596ca9a9498d2613d6c8c59d4, type: 2}
+  - {fileID: 11400000, guid: ec1769ed10b92774d94c9b3dd2cffa87, type: 2}
   dominoPrefab: {fileID: 1590200983664278859, guid: f3fd2e80c18e28b4fb6933eb170de3c7, type: 3}
 --- !u!1001 &6654155340603389193
 PrefabInstance:
