@@ -350,6 +350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1186887896}
+  - component: {fileID: 1186887897}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -372,6 +373,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1186887897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186887895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4928fc064e06d044fadb3c9a9b68c997, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dominoManager: {fileID: 1779123032}
+  tilesPerPlayer: 7
 --- !u!1 &1779123030
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +483,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1124708918155645712, guid: f3fd2e80c18e28b4fb6933eb170de3c7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 750948723, guid: f377b76fd3aa79347b137067e2b49812, type: 3}
     - target: {fileID: 1590200983664278859, guid: f3fd2e80c18e28b4fb6933eb170de3c7, type: 3}
       propertyPath: m_Name
       value: DominoTile
