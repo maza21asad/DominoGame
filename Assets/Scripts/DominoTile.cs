@@ -21,6 +21,13 @@ public class DominoTile : MonoBehaviour
         spriteRenderer.sprite = data.dominoSprite;
     }
 
+    public int OtherValue(int match)
+    {
+        if (leftValue == match) return rightValue;
+        if (rightValue == match) return leftValue;
+        return -1; // should not happen
+    }
+
     public bool Matches(int value)
     {
         return leftValue == value || rightValue == value;

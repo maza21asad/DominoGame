@@ -52,6 +52,8 @@ public class GameManager : MonoBehaviour
     public DominoManager dominoManager;
     public int tilesPerPlayer = 7;
 
+    public BoardManager boardManager;
+
     [Header("Hand Holders")]
     public Transform player1HandHolder;
     public Transform player2HandHolder;
@@ -82,6 +84,11 @@ public class GameManager : MonoBehaviour
             }
             Debug.Log(players[p].playerName + " has " + players[p].hand.Count + " tiles.");
         }
+
+        // Example: auto-place first tile (highest double rule will come later)
+        DominoTile first = players[0].hand[0];
+        players[0].RemoveTile(first);
+        boardManager.PlaceFirstTile(first);
     }
 }
 

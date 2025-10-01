@@ -60,13 +60,13 @@ public class Player
         tile.transform.localPosition = new Vector3(offset, 0, 0);
     }
 
-    //// Remove a tile from hand (returns tile if removed, null otherwise)
-    //public DominoTile RemoveTile(DominoTile tile)
-    //{
-    //    if (tile == null) return null;
-    //    if (hand.Remove(tile)) return tile;
-    //    return null;
-    //}
+    // Remove a tile from hand (returns tile if removed, null otherwise)
+    public DominoTile RemoveTile(DominoTile tile)
+    {
+        if (tile == null) return null;
+        if (hand.Remove(tile)) return tile;
+        return null;
+    }
 
     //// Checks if any tile in hand matches either open end
     //public bool HasValidMove(int leftEnd, int rightEnd)
